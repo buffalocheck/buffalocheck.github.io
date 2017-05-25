@@ -4,11 +4,97 @@
 <head>
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hola Mundo</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
-    <h1>Hola Mundo</h1>
+    <header>
+        <div class="navbar-fixed">
+            <nav>
+                <div class="nav-wrapper">
+                    <a href="index.html" class="brand-logo">Shawn Adams</a>
+                    <!-- logo in navbar - shows only when on mobile -->
+                    <a href="#" data-activates="mobile-menu" class="button-collapse"><i class="material-icons">menu</i></a>
+                    <!-- Shows on large screens-->
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="#aboutSection">About</a></li>
+                        <li><a href="#projectsSection">Projects</a></li>
+                        <li><a href="#techSection">Tech</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!--This shows on mobile when hamburger is clicked-->
+        <ul class="side-nav" id="mobile-menu">
+            <li><a href="#aboutSection">About</a></li>
+            <li><a href="#projectsSection">Projects</a></li>
+            <li><a href="#techSection">Tech</a></li>
+        </ul>
+    </header>
+    <!--     <header>
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#!" class="brand-logo">Shawn Adams</a>
+                <a href="#" data-activates="mobile-menu" class="button-collapse dropdown-button"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#aboutSection">About</a></li>
+                    <li><a href="#projectsSection">Projects</a></li>
+                    <li><a href="#techSection">Tech</a></li>
+                </ul>
+            </div>
+        </nav>
+        <ul class="side-nav" id="mobile-menu">
+            <li><a href="#aboutSection">About</a></li>
+            <li><a href="#projectsSection">Projects</a></li>
+            <li><a href="#techSection">Tech</a></li>
+        </ul>
+    </header> -->
+    <div id="main">
+        <!--About-->
+        <section id="aboutSection">
+            <div class="about">
+                <h1 class="about">About</h1>
+                <p>Shawn Adams leads Buffalo Check, an independent marketing consultancy with strategic and tactical expertise across digital media. We plan and execute customized programs that work with existing initiatives to achieve immediate goals as well as contributing to future successes. We maximize client ROI by partnering directly with leading platforms and leveraging the relationships between data, people and their devices.
+                    <br>
+                    <br>The Buffalo Check team and has been developing customized multi-device programs for F500 companies, the US military and their agencies on behalf of NBC, NFL, NCAA properties and others for over 15 years.</p>
+            </div>
+        </section>
+        <!--Projects-->
+        <section id="projectsSection">
+            <div class="projects">
+                <h1 class="projects">Projects</h1>
+            </div>
+        </section>
+        <!--Tech-->
+        <section id="techSection">
+            <div class="tech">
+                <h1 class="tech">Tech</h1>
+                <ul>
+                    <li>Languages: HTML, CSS, JavaScript, Ruby</li>
+                    <li>Frameworks: Angular, Bootstrap, Materialize, Express, Node, Rails</li>
+                    <li>Databases: MongoDB, Mongoose, PostgreSQL, Sequelize</li>
+                </ul>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div id="icons">
+            <a href="https://www.facebook.com/shawn.adams.98434" class="foot"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/in/shawnadamsbuffalocheck" class="foot"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+        </div>
+        <div id="copy">
+            <p class="copyright">&copy; 2017 Shawn Adams</p>
+        </div>
+    </footer>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+    <script src="script.js"></script>
+</body>
 </body>
 
 </html>
