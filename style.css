@@ -3,57 +3,57 @@
         min-height: 100vh;
         flex-direction: column;
     }
-
+    
     #main {
         flex: 1 0 auto;
         width: 80%;
         margin: 0 auto;
     }
     /*======navbar=======*/
-
+    
     .nav-wrapper {
         /*background-color: #1f282d;*/
         background-color: #134360;
     }
-
+    
     nav .button-collapse i {
         color: #849fb0;
     }
-
+    
     nav .button-collapse i:hover {
         color: #fff;
         text-decoration: none;
     }
-
+    
     .brand-logo {
         margin-left: 1em;
     }
     /*=====projects======*/
-
+    
     .proj a {
         color: #849fb0;
         text-decoration: none;
     }
-
+    
     .proj a:hover {
         color: #000;
         text-decoration: none;
     }
     /*======resume=======*/
-
+    
     .resume-btns {
         margin: 1em 0;
     }
-
+    
     .resume-btns a {
+        background-color: #849fb0;
+    }
+    
+    .resume-btns a:hover {
         background-color: #495d69;
     }
-    /* .resume-btns:hover {
-     background-color: #6c818e;
- }
-*/
     /*======footer=======*/
-
+    
     footer {
         /*background-color: #1f282d;
 */
@@ -61,7 +61,7 @@
         color: #495d69;
         display: flex;
     }
-
+    
     #icons {
         width: 50%;
         display: flex;
@@ -69,17 +69,18 @@
         font-size: 2em;
         padding: 1em;
     }
-
+    
     #icons a {
         color: #849fb0;
         text-decoration: none;
+        margin: auto;
     }
-
+    
     #icons a:hover {
         color: #fff;
         text-decoration: none;
     }
-
+    
     #copy {
         width: 50%;
         text-align: center;
