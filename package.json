@@ -1,0 +1,24 @@
+{
+  "name": "buffalocheck.github.io",
+  "version": "1.0.0",
+  "description": "Look up mark down cheatsheets You can find Shawn's portfolio [here](https://buffalocheck.github.io)! # one thing ## another thing * more things npm install materialize-css",
+  "main": "script.js",
+  "scripts": {
+    "start": "node_modules/browser-sync/bin/browser-sync.js start --server . --files ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buffalocheck/buffalocheck.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/buffalocheck/buffalocheck.github.io/issues"
+  },
+  "homepage": "https://github.com/buffalocheck/buffalocheck.github.io#readme",
+  "keywords": [],
+  "dependencies": {
+    "browser-sync": "^2.18.12"
+  },
+  "devDependencies": {}
+}
