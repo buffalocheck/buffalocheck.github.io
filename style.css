@@ -9,6 +9,14 @@
         width: 80%;
         margin: 0 auto;
     }
+    
+    h1 {
+        font-size: 3rem;
+    }
+    
+    p {
+        line-height: 1.4em;
+    }
     /*======navbar=======*/
     
     .nav-wrapper {
@@ -36,7 +44,7 @@
     }
     
     .proj a:hover {
-        color: #000;
+        color: #495d69;
         text-decoration: none;
     }
     /*======resume=======*/
@@ -68,12 +76,12 @@
         justify-content: space-around;
         font-size: 2em;
         padding: 1em;
+        margin: 0 auto;
     }
     
     #icons a {
         color: #849fb0;
         text-decoration: none;
-        margin: auto;
     }
     
     #icons a:hover {
