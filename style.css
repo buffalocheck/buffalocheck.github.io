@@ -6,16 +6,16 @@
     
     #main {
         flex: 1 0 auto;
-        width: 80%;
+        width: 84%;
         margin: 0 auto;
     }
     
     h1 {
-        font-size: 3rem;
+        font-size: 6rem;
     }
     
     p {
-        line-height: 1.4em;
+        line-height: 1.5em;
     }
     /*======navbar=======*/
     
