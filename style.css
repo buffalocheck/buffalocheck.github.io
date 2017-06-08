@@ -11,7 +11,7 @@
     }
     
     h1 {
-        font-size: 6rem;
+        font-size: 3em;
     }
     
     p {
@@ -48,17 +48,29 @@
         text-decoration: none;
     }
     /*======resume=======*/
-    
-    .resume-btns {
+    /*    .resume-btns {
         margin: 1em 0;
     }
+*/
     
     .resume-btns a {
         background-color: #849fb0;
+        text-decoration: none;
+        margin: 1em 1.5em 1em 0;
     }
     
     .resume-btns a:hover {
         background-color: #495d69;
+    }
+    
+    .resume-btns a:visited {
+        background-color: initial;
+        /*text-decoration: none;*/
+    }
+    
+    .resume-btns a:focus {
+        background-color: #495d69;
+        /*text-decoration: none;*/
     }
     /*======footer=======*/
     
@@ -71,12 +83,16 @@
     }
     
     #icons {
-        width: 50%;
+        width: 60%;
         display: flex;
         justify-content: space-around;
         font-size: 2em;
-        padding: 1em;
+        padding: 0.5em;
         margin: 0 auto;
+    }
+    
+    #fb-icon {
+        margin-right: -15em;
     }
     
     #icons a {
@@ -90,7 +106,7 @@
     }
     
     #copy {
-        width: 50%;
+        width: 40%;
         text-align: center;
         font-size: .7em;
         margin: auto;
