@@ -81,8 +81,8 @@
     /*======footer=======*/
     
     footer {
-        /*background-color: #1f282d;
-*/
+        /*background-color: #1f282d;*/
+        line-height: 1em;
         background-color: #134360;
         color: #495d69;
         display: flex;
