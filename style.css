@@ -66,6 +66,10 @@
     }
 */
     
+    #resume div {
+        margin-bottom: .1em;
+    }
+    
     .resume-btns a {
         background-color: #849fb0;
         text-decoration: none;
