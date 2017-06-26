@@ -31,9 +31,13 @@
         margin: 0 20% 0 10%;
     }
     
-    h1 {
+    #aboutSection h1 {
         font-size: 3em;
         /*margin-top: 2em;*/
+        /*        padding-top: 190px;*/
+        /*margin-top: -170px;*/
+        padding-top: 2em;
+        margin-top: -1.7em;
     }
     
     p,
@@ -47,8 +51,11 @@
     }
     /*=====projects======*/
     
-    .proj h1 {
-        margin-top: 2em;
+    #projectsSection h1 {
+        /*margin-top: 2em;*/
+        padding-top: 1.5em;
+        margin-top: -1.2em;
+        font-size: 3em;
     }
     
     .proj a {
@@ -70,7 +77,24 @@
         -webkit-filter: grayscale(0%);
         filter: grayscale(0%);
     }
+    /*=======tech========*/
+    
+    #techSection {
+        margin-top: 2em;
+    }
+    
+    #techSection h1 {
+        font-size: 3em;
+    }
     /*======resume=======*/
+    
+    #resumeSection {
+        margin-bottom: 1em;
+    }
+    
+    #resumeSection h1 {
+        font-size: 3em;
+    }
     /*    .resume-btns {
         margin: 1em 0;
     }
