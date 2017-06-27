@@ -5,11 +5,19 @@ $(document).ready(function() {
         draggable: true
 
     });
-    $(".scrollspy").scrollspy();
 
     // $(".materialboxed").materialbox();
     $('.button-collapse').sideNav('hide');
     $('.button-collapse').sideNav('destroy');
 
+    // smooth-scroll
+    $('a').on('click', function(event) {
+        event.preventDefault();
+        var target = $(this.hash);
+        $('html, body').animate({
+            scrollTop: target.offset().top
+        }, 300);
+        return false;
+    });
 
 });
