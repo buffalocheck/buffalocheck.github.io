@@ -1,38 +1,37 @@
     /*======navbar=======*/
-
+    
     .nav-wrapper {
         /*background-color: #1f282d;*/
         background-color: #134360;
     }
-
+    
     nav .button-collapse i {
         color: #849fb0;
     }
-
+    
     nav .button-collapse i:hover {
         color: #fff;
         text-decoration: none;
     }
-
+    
     .brand-logo {
         margin-left: 1em;
     }
     /*=====main==========*/
-
+    
     body {
         display: flex;
         min-height: 100vh;
         flex-direction: column;
-        /*background-color: f6f6f6;
-*/
+        background-color: #f9f9f9;
     }
-
+    
     #main {
         flex: 1 0 auto;
         width: 70%;
         margin: 0 20% 0 10%;
     }
-
+    
     #aboutSection h1 {
         font-size: 3em;
         /*margin-top: 2em;*/
@@ -41,61 +40,61 @@
         padding-top: 2em;
         margin-top: -1.7em;
     }
-
+    
     p,
     .tech li {
         line-height: 1.5em;
         font-size: 1.2em;
     }
-
+    
     .tech li {
         line-height: 2em;
     }
     /*=====projects======*/
-
+    
     #projectsSection h1 {
         /*margin-top: 2em;*/
         padding-top: 1.5em;
         margin-top: -1.2em;
         font-size: 3em;
     }
-
+    
     .proj a {
         color: #849fb0;
         text-decoration: none;
     }
-
+    
     .proj a:hover {
         color: #495d69;
         text-decoration: none;
     }
-
+    
     img {
         -webkit-filter: grayscale(100%);
         filter: grayscale(100%);
     }
-
+    
     img:hover {
         -webkit-filter: grayscale(0%);
         filter: grayscale(0%);
     }
     /*=======tech========*/
-
+    
     #techSection {
         margin-top: 2em;
     }
-
+    
     #techSection h1 {
         font-size: 3em;
         padding-top: 2em;
         margin-top: -1.7em;
     }
     /*======resume=======*/
-
+    
     #resumeSection {
         margin-bottom: 1em;
     }
-
+    
     #resumeSection h1 {
         font-size: 3em;
     }
@@ -103,32 +102,32 @@
         margin: 1em 0;
     }
 */
-
+    
     #resume div {
         margin-bottom: .1em;
     }
-
+    
     .resume-btns a {
         background-color: #849fb0;
         text-decoration: none;
         margin: 1em 1.5em 1em 0;
     }
-
+    
     .resume-btns a:hover {
         background-color: #495d69;
     }
-
+    
     .resume-btns a:visited {
         background-color: initial;
         /*text-decoration: none;*/
     }
-
+    
     .resume-btns a:focus {
         background-color: #495d69;
         /*text-decoration: none;*/
     }
     /*======footer=======*/
-
+    
     footer {
         /*background-color: #1f282d;*/
         line-height: 1em;
@@ -136,13 +135,13 @@
         color: #495d69;
         display: flex;
     }
-
+    
     #contact-methods {
         display: flex;
         flex-direction: row;
         margin-left: 10%;
     }
-
+    
     #icons {
         /*width: 60%;*/
         display: flex;
@@ -154,23 +153,23 @@
     /*    #fb-icon {
         margin-right: -15em;
     }*/
-
+    
     #icons a {
         color: #849fb0;
         text-decoration: none;
         margin-right: 1em;
     }
-
+    
     #icons a:hover {
         color: #fff;
         text-decoration: none;
     }
-
+    
     #email {
         color: #fff;
         margin-left: 3em;
     }
-
+    
     #copy {
         /*width: 40%;*/
         text-align: center;
