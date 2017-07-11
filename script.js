@@ -6,7 +6,7 @@ $(document).ready(function() {
 
     });
 
-    $(".scrollspy").scrollspy();
+    // $(".scrollspy").scrollSpy();
 
     // $(".materialboxed").materialbox();
     $('.button-collapse').sideNav('hide');
