@@ -8,7 +8,6 @@ $(document).ready(function() {
 
     $(".scrollspy").scrollspy();
 
-
     // $(".materialboxed").materialbox();
     $('.button-collapse').sideNav('hide');
     $('.button-collapse').sideNav('destroy');
